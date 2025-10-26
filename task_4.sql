@@ -1,6 +1,6 @@
--- Switch to the alx_book_store database
+-- Switch to the correct database
 USE alx_book_store;
 
--- Show the full description of the books table
-SHOW CREATE TABLE books;
+-- Show the structure of the books table without using DESCRIBE or ANALYZE
+SHOW COLUMNS FROM books;
 
